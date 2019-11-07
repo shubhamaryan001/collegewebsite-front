@@ -1,0 +1,220 @@
+<?xml version="1.0"?>
+<MUPDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd">
+  <packageinformation>
+    <installertype>msi</installertype>
+    <packagegrouping>single_package</packagegrouping>
+    <packagingtype>zip</packagingtype>
+    <releasetype>DRVR</releasetype>
+    <mupspecificationversion>2.4.3</mupspecificationversion>
+    <version>2.3.2701.0</version>
+    <name>LPSS</name>
+    <supportedoperatingsystems>
+      <osidentifier name="Windows10" architecture="x64" />
+      <osidentifier name="W2K16" architecture="x64" />
+    </supportedoperatingsystems>
+    <content>
+      <Device componentID="103954">
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>34BB</PnPProductID>
+        </PnPInfo>
+        <PnPInfo>
+          <PNPID>INT</PNPID>
+          <PnPProductID>3450</PnPProductID>
+        </PnPInfo>
+        <Image type="DRVR" version="30.100.1727.1">
+          <file>production\Windows10-x64\iaLPSS2_GPIO2_CNL.inf\iaLPSS2_GPIO2_CNL.cat</file>
+          <file>production\Windows10-x64\iaLPSS2_GPIO2_CNL.inf\iaLPSS2_GPIO2_CNL.inf</file>
+          <file>production\Windows10-x64\iaLPSS2_GPIO2_CNL.inf\iaLPSS2_GPIO2.sys</file>
+          <file>production\W2K16-x64\iaLPSS2_GPIO2_CNL.inf\iaLPSS2_GPIO2_CNL.cat</file>
+          <file>production\W2K16-x64\iaLPSS2_GPIO2_CNL.inf\iaLPSS2_GPIO2_CNL.inf</file>
+          <file>production\W2K16-x64\iaLPSS2_GPIO2_CNL.inf\iaLPSS2_GPIO2.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="103954">
+        <PCIInfo vendorID="8086" deviceID="9DE8" />
+        <PCIInfo vendorID="8086" deviceID="9DE9" />
+        <PCIInfo vendorID="8086" deviceID="9DEA" />
+        <PCIInfo vendorID="8086" deviceID="9DEB" />
+        <PCIInfo vendorID="8086" deviceID="9DC5" />
+        <PCIInfo vendorID="8086" deviceID="9DC6" />
+        <PCIInfo vendorID="8086" deviceID="A368" />
+        <PCIInfo vendorID="8086" deviceID="A369" />
+        <PCIInfo vendorID="8086" deviceID="A36A" />
+        <PCIInfo vendorID="8086" deviceID="A36B" />
+        <Image type="DRVR" version="30.100.1727.1">
+          <file>production\Windows10-x64\iaLPSS2_I2C_CNL.inf\iaLPSS2_I2C_CNL.cat</file>
+          <file>production\Windows10-x64\iaLPSS2_I2C_CNL.inf\iaLPSS2_I2C_CNL.inf</file>
+          <file>production\Windows10-x64\iaLPSS2_I2C_CNL.inf\iaLPSS2_I2C.sys</file>
+          <file>production\W2K16-x64\iaLPSS2_I2C_CNL.inf\iaLPSS2_I2C_CNL.cat</file>
+          <file>production\W2K16-x64\iaLPSS2_I2C_CNL.inf\iaLPSS2_I2C_CNL.inf</file>
+          <file>production\W2K16-x64\iaLPSS2_I2C_CNL.inf\iaLPSS2_I2C.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="103954">
+        <PCIInfo vendorID="8086" deviceID="9DAA" />
+        <PCIInfo vendorID="8086" deviceID="9DAB" />
+        <PCIInfo vendorID="8086" deviceID="9DFB" />
+        <PCIInfo vendorID="8086" deviceID="A32A" />
+        <PCIInfo vendorID="8086" deviceID="A32B" />
+        <PCIInfo vendorID="8086" deviceID="A37B" />
+        <Image type="DRVR" version="30.100.1727.1">
+          <file>production\Windows10-x64\iaLPSS2_SPI_CNL.inf\iaLPSS2_SPI_CNL.cat</file>
+          <file>production\Windows10-x64\iaLPSS2_SPI_CNL.inf\iaLPSS2_SPI_CNL.inf</file>
+          <file>production\Windows10-x64\iaLPSS2_SPI_CNL.inf\iaLPSS2_SPI.sys</file>
+          <file>production\W2K16-x64\iaLPSS2_SPI_CNL.inf\iaLPSS2_SPI_CNL.cat</file>
+          <file>production\W2K16-x64\iaLPSS2_SPI_CNL.inf\iaLPSS2_SPI_CNL.inf</file>
+          <file>production\W2K16-x64\iaLPSS2_SPI_CNL.inf\iaLPSS2_SPI.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="103954">
+        <PCIInfo vendorID="8086" deviceID="9DA8" />
+        <PCIInfo vendorID="8086" deviceID="9DA9" />
+        <PCIInfo vendorID="8086" deviceID="9DC7" />
+        <PCIInfo vendorID="8086" deviceID="A328" />
+        <PCIInfo vendorID="8086" deviceID="A329" />
+        <PCIInfo vendorID="8086" deviceID="A347" />
+        <Image type="DRVR" version="30.100.1727.1">
+          <file>production\Windows10-x64\iaLPSS2_UART2_CNL.inf\iaLPSS2_UART2_CNL.cat</file>
+          <file>production\Windows10-x64\iaLPSS2_UART2_CNL.inf\iaLPSS2_UART2_CNL.inf</file>
+          <file>production\Windows10-x64\iaLPSS2_UART2_CNL.inf\iaLPSS2_UART2.sys</file>
+          <file>production\W2K16-x64\iaLPSS2_UART2_CNL.inf\iaLPSS2_UART2_CNL.cat</file>
+          <file>production\W2K16-x64\iaLPSS2_UART2_CNL.inf\iaLPSS2_UART2_CNL.inf</file>
+          <file>production\W2K16-x64\iaLPSS2_UART2_CNL.inf\iaLPSS2_UART2.sys</file>
+        </Image>
+      </Device>
+    </content>
+  </packageinformation>
+  <executable>
+    <executablename>SetupSerialIO.exe</executablename>
+  </executable>
+  <behaviors>
+    <behavior name="extractdrivers">
+      <vendoroption>
+        <container>
+          <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
+          <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
+        </container>
+      </vendoroption>
+    </behavior>
+    <behavior name="attended" />
+    <behavior name="help">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">?</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="unattended">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">s</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="freshinstall">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">fresh</optionvalue>
+      </vendoroption>
+    </behavior>
+  </behaviors>
+  <parameters>
+    <parametermapping name="force">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">overwrite</optionvalue>
+      </vendoroption>
+    </parametermapping>
+    <parametermapping name="logfile">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="true" valuedelimiter=" " enclose="&quot;">report</optionvalue>
+      </vendoroption>
+    </parametermapping>
+  </parameters>
+  <returncodes>
+    <returncodemapping name="REBOOTING_SYSTEM">
+      <vendorreturncode>1641</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="PASSWORD_REQUIRED">
+      <vendorreturncode>2</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="NO_DOWNGRADE">
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_UPDATE_PENDING">
+      <vendorreturncode>9999</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_SOFT_ERROR">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_HARD_ERROR">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="SUCCESS">
+      <vendorreturncode>0</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>1602</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_REQUIRED">
+      <vendorreturncode>3010</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="UNKNOWN_OPTION">
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+  </returncodes>
+  <inventorymetadata>
+    <extractdriversidentifier>
+      <pnpids>
+        <pnpdevice componentID="103954">
+          <driverversion>30.100.1727.1</driverversion>
+          <pnpidstring>
+            <PNPID>INT</PNPID>
+            <PnPProductID>34BB</PnPProductID>
+          </pnpidstring>
+          <pnpidstring>
+            <PNPID>INT</PNPID>
+            <PnPProductID>3450</PnPProductID>
+          </pnpidstring>
+        </pnpdevice>
+        <pnpdevice componentID="103954">
+          <driverversion>30.100.1727.1</driverversion>
+          <pciinfo vendorID="8086" deviceID="9DE8" />
+          <pciinfo vendorID="8086" deviceID="9DE9" />
+          <pciinfo vendorID="8086" deviceID="9DEA" />
+          <pciinfo vendorID="8086" deviceID="9DEB" />
+          <pciinfo vendorID="8086" deviceID="9DC5" />
+          <pciinfo vendorID="8086" deviceID="9DC6" />
+          <pciinfo vendorID="8086" deviceID="A368" />
+          <pciinfo vendorID="8086" deviceID="A369" />
+          <pciinfo vendorID="8086" deviceID="A36A" />
+          <pciinfo vendorID="8086" deviceID="A36B" />
+        </pnpdevice>
+        <pnpdevice componentID="103954">
+          <driverversion>30.100.1727.1</driverversion>
+          <pciinfo vendorID="8086" deviceID="9DAA" />
+          <pciinfo vendorID="8086" deviceID="9DAB" />
+          <pciinfo vendorID="8086" deviceID="9DFB" />
+          <pciinfo vendorID="8086" deviceID="A32A" />
+          <pciinfo vendorID="8086" deviceID="A32B" />
+          <pciinfo vendorID="8086" deviceID="A37B" />
+        </pnpdevice>
+        <pnpdevice componentID="103954">
+          <driverversion>30.100.1727.1</driverversion>
+          <pciinfo vendorID="8086" deviceID="9DA8" />
+          <pciinfo vendorID="8086" deviceID="9DA9" />
+          <pciinfo vendorID="8086" deviceID="9DC7" />
+          <pciinfo vendorID="8086" deviceID="A328" />
+          <pciinfo vendorID="8086" deviceID="A329" />
+          <pciinfo vendorID="8086" deviceID="A347" />
+        </pnpdevice>
+      </pnpids>
+    </extractdriversidentifier>
+    <fullpackageidentifier>
+      <msis>
+        <msi componentID="103954">
+          <upgradecode>{A2E02A9B-E18C-4F02-B3B8-89B17FAE1A54}</upgradecode>
+          <version>2.3.2701.0</version>
+        </msi>
+      </msis>
+    </fullpackageidentifier>
+  </inventorymetadata>
+</MUPDefinition>

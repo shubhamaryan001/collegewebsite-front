@@ -1,0 +1,88 @@
+.cart-box{
+
+
+    margin-top: 10rem;
+    max-height: 100vh;
+    padding: 5px 5px 5px 5px;
+}
+
+.cart-card-1{
+
+
+    width: 80rem;
+}
+
+.cart-card-2{
+
+    width: 25rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cart-title{
+
+
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.fa-rupee-sign{
+
+    margin-right: 7px;
+}
+
+.cart-button{
+
+
+    padding: 10px 30px 10px 30px
+}
+
+
+
+.confirmation-card{
+
+    width: 45rem;
+}
+
+.text-pop-up-top {
+    
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+	-webkit-animation: text-pop-up-top 2s ease-in-out infinite both;
+	        animation: text-pop-up-top 2s ease-in-out infinite both;
+}
+
+@-webkit-keyframes text-pop-up-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @keyframes text-pop-up-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }

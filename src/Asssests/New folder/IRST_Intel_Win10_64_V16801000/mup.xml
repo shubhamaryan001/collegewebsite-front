@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MUPDefinition xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd mupdefinition.xsd">
+  <packageinformation>
+    <installertype>msi</installertype>
+    <packagegrouping>single_package</packagegrouping>
+    <packagingtype>zip</packagingtype>
+    <releasetype>DRVR</releasetype>
+    <mupspecificationversion>2.4.4</mupspecificationversion>
+    <supportedoperatingsystems>
+      <osidentifier name="XP" architecture="x64" />
+      <osidentifier name="W2K3" architecture="x64" />
+      <osidentifier name="Vista" architecture="x64" />
+      <osidentifier name="W2K8" architecture="x64" />
+      <osidentifier name="Windows7" architecture="x64" />
+      <osidentifier name="W2K8R2" architecture="x64" />
+      <osidentifier name="Windows8" architecture="x64" />
+      <osidentifier name="W2K12" architecture="x64" />
+      <osidentifier name="Windows8.1" architecture="x64" />
+      <osidentifier name="W2K12R2" architecture="x64" />
+      <osidentifier name="Windows10" architecture="x64" />
+      <osidentifier name="W2K16" architecture="x64" />
+    </supportedoperatingsystems>
+    <content>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="9D03" />
+        <PCIInfo vendorID="8086" deviceID="A102" />
+        <PCIInfo vendorID="8086" deviceID="A103" />
+        <PCIInfo vendorID="8086" deviceID="A282" />
+        <PCIInfo vendorID="8086" deviceID="9DD3" />
+        <PCIInfo vendorID="8086" deviceID="A352" />
+        <PCIInfo vendorID="8086" deviceID="A353" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8-x64\iaAHCIC.inf\iaAHCIC.inf</file>
+          <file>production\Windows8-x64\iaAHCIC.inf\iaAHCIC.cat</file>
+          <file>production\Windows8-x64\iaAHCIC.inf\iaStorAC.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="9D03" />
+        <PCIInfo vendorID="8086" deviceID="A102" />
+        <PCIInfo vendorID="8086" deviceID="A103" />
+        <PCIInfo vendorID="8086" deviceID="A282" />
+        <PCIInfo vendorID="8086" deviceID="9DD3" />
+        <PCIInfo vendorID="8086" deviceID="A352" />
+        <PCIInfo vendorID="8086" deviceID="A353" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12-x64\iaAHCIC.inf\iaAHCIC.inf</file>
+          <file>production\W2K12-x64\iaAHCIC.inf\iaAHCIC.cat</file>
+          <file>production\W2K12-x64\iaAHCIC.inf\iaStorAC.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="9D03" />
+        <PCIInfo vendorID="8086" deviceID="A102" />
+        <PCIInfo vendorID="8086" deviceID="A103" />
+        <PCIInfo vendorID="8086" deviceID="A282" />
+        <PCIInfo vendorID="8086" deviceID="9DD3" />
+        <PCIInfo vendorID="8086" deviceID="A352" />
+        <PCIInfo vendorID="8086" deviceID="A353" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8.1-x64\iaAHCIC.inf\iaAHCIC.inf</file>
+          <file>production\Windows8.1-x64\iaAHCIC.inf\iaAHCIC.cat</file>
+          <file>production\Windows8.1-x64\iaAHCIC.inf\iaStorAC.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="9D03" />
+        <PCIInfo vendorID="8086" deviceID="A102" />
+        <PCIInfo vendorID="8086" deviceID="A103" />
+        <PCIInfo vendorID="8086" deviceID="A282" />
+        <PCIInfo vendorID="8086" deviceID="9DD3" />
+        <PCIInfo vendorID="8086" deviceID="A352" />
+        <PCIInfo vendorID="8086" deviceID="A353" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12R2-x64\iaAHCIC.inf\iaAHCIC.inf</file>
+          <file>production\W2K12R2-x64\iaAHCIC.inf\iaAHCIC.cat</file>
+          <file>production\W2K12R2-x64\iaAHCIC.inf\iaStorAC.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="9D03" />
+        <PCIInfo vendorID="8086" deviceID="A102" />
+        <PCIInfo vendorID="8086" deviceID="A103" />
+        <PCIInfo vendorID="8086" deviceID="A282" />
+        <PCIInfo vendorID="8086" deviceID="9DD3" />
+        <PCIInfo vendorID="8086" deviceID="A352" />
+        <PCIInfo vendorID="8086" deviceID="A353" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows10-x64\iaAHCIC.inf\iaAHCIC.inf</file>
+          <file>production\Windows10-x64\iaAHCIC.inf\iaAHCIC.cat</file>
+          <file>production\Windows10-x64\iaAHCIC.inf\iaStorAC.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="9D03" />
+        <PCIInfo vendorID="8086" deviceID="A102" />
+        <PCIInfo vendorID="8086" deviceID="A103" />
+        <PCIInfo vendorID="8086" deviceID="A282" />
+        <PCIInfo vendorID="8086" deviceID="9DD3" />
+        <PCIInfo vendorID="8086" deviceID="A352" />
+        <PCIInfo vendorID="8086" deviceID="A353" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K16-x64\iaAHCIC.inf\iaAHCIC.inf</file>
+          <file>production\W2K16-x64\iaAHCIC.inf\iaAHCIC.cat</file>
+          <file>production\W2K16-x64\iaAHCIC.inf\iaStorAC.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>PCI\VEN_8086&amp;CC_0108</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\Windows8-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>PCI\VEN_8086&amp;CC_0108</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\W2K12-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>PCI\VEN_8086&amp;CC_0108</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\Windows8.1-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>PCI\VEN_8086&amp;CC_0108</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\W2K12R2-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>PCI\VEN_8086&amp;CC_0108</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\Windows10-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>PCI\VEN_8086&amp;CC_0108</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAC.inf</file>
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAC.cat</file>
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAC.sys</file>
+          <file>production\W2K16-x64\iaStorAC.inf\iaStorAfs.sys</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\XP-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\XP-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K3-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\W2K3-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Vista-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\Vista-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K8-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\W2K8-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows7-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\Windows7-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K8R2-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\W2K8R2-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\Windows8-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\W2K12-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows8.1-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\Windows8.1-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K12R2-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\W2K12R2-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows10-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\Windows10-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Generic>SWC\VID8086&amp;PID2822&amp;SID0001</Generic>
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K16-x64\iaStorSW.inf\iaStorSW.inf</file>
+          <file>production\W2K16-x64\iaStorSW.inf\iaStorSW.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\Windows10-x64\iaStorSwExt.inf\iaStorSwExt.inf</file>
+          <file>production\Windows10-x64\iaStorSwExt.inf\iaStorSwExt.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <PCIInfo vendorID="8086" deviceID="2822" />
+        <PCIInfo vendorID="8086" deviceID="282A" />
+        <PCIInfo vendorID="8086" deviceID="9D07" />
+        <PCIInfo vendorID="8086" deviceID="A107" />
+        <PCIInfo vendorID="8086" deviceID="A106" />
+        <PCIInfo vendorID="8086" deviceID="A28E" />
+        <PCIInfo vendorID="8086" deviceID="A286" />
+        <PCIInfo vendorID="8086" deviceID="9DD7" />
+        <PCIInfo vendorID="8086" deviceID="A356" />
+        <PCIInfo vendorID="8086" deviceID="A357" />
+        <Image type="DRVR" version="16.8.0.1000">
+          <file>production\W2K16-x64\iaStorSwExt.inf\iaStorSwExt.inf</file>
+          <file>production\W2K16-x64\iaStorSwExt.inf\iaStorSwExt.cat</file>
+        </Image>
+      </Device>
+      <Device componentID="100638">
+        <Image type="APP" version="16.8.0.1000">
+          <file>SetupRST.exe</file>
+        </Image>
+      </Device>
+    </content>
+    <name>RST</name>
+    <version>16.8.0.1000</version>
+  </packageinformation>
+  <executable>
+    <executablename>SetupRST.exe</executablename>
+  </executable>
+  <behaviors>
+    <behavior name="freshinstall">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">fresh</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="driveronly">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">noservice</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="applicationonly">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">nodrv</optionvalue>
+      </vendoroption>
+    </behavior>
+    <behavior name="extractdrivers">
+      <vendoroption>
+        <container>
+          <containervalue switch="/" requiresvalue="false" valuedelimiter=" " enclose="&quot;">v</containervalue>
+          <optionvalue switch="" requiresvalue="true" valuedelimiter="=" enclose="\&quot;">ExtractDrivers</optionvalue>
+        </container>
+      </vendoroption>
+    </behavior>
+    <behavior name="attended" />
+    <behavior name="unattended">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">s</optionvalue>
+      </vendoroption>
+    </behavior>
+  </behaviors>
+  <parameters>
+    <parametermapping name="force">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="false">overwrite</optionvalue>
+      </vendoroption>
+    </parametermapping>
+    <parametermapping name="logfile">
+      <vendoroption>
+        <optionvalue switch="/" requiresvalue="true" valuedelimiter=" " enclose="&quot;">report</optionvalue>
+      </vendoroption>
+    </parametermapping>
+  </parameters>
+  <returncodes>
+    <returncodemapping name="REBOOTING_SYSTEM">
+      <vendorreturncode>1641</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="DEP_SOFT_ERROR">
+      <!-- 1603=Standard Win32 fatal error code -->
+      <vendorreturncode>1603</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="SUCCESS">
+      <vendorreturncode>0</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR">
+      <vendorreturncode>1602</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="REBOOT_REQUIRED">
+      <vendorreturncode>3010</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="ERROR_INSTALL_PLATFORM_UNSUPPORTED">
+      <vendorreturncode>1633</vendorreturncode>
+    </returncodemapping>
+    <returncodemapping name="UNKNOWN_OPTION">
+      <vendorreturncode>1639</vendorreturncode>
+    </returncodemapping>
+  </returncodes>
+  <inventorymetadata>
+    <extractdriversidentifier>
+      <pnpids>
+        <pnpdevice componentID="100638">
+          <driverversion>16.8.0.1000</driverversion>
+          <pciinfo vendorID="8086" deviceID="9D03" />
+          <pciinfo vendorID="8086" deviceID="A102" />
+          <pciinfo vendorID="8086" deviceID="A103" />
+          <pciinfo vendorID="8086" deviceID="A282" />
+          <pciinfo vendorID="8086" deviceID="9DD3" />
+          <pciinfo vendorID="8086" deviceID="A352" />
+          <pciinfo vendorID="8086" deviceID="A353" />
+        </pnpdevice>
+        <pnpdevice componentID="100638">
+          <driverversion>16.8.0.1000</driverversion>
+          <pciinfo vendorID="8086" deviceID="2822" />
+          <pciinfo vendorID="8086" deviceID="282A" />
+          <pciinfo vendorID="8086" deviceID="9D07" />
+          <pciinfo vendorID="8086" deviceID="A107" />
+          <pciinfo vendorID="8086" deviceID="A106" />
+          <pciinfo vendorID="8086" deviceID="A28E" />
+          <pciinfo vendorID="8086" deviceID="A286" />
+          <pciinfo vendorID="8086" deviceID="9DD7" />
+          <pciinfo vendorID="8086" deviceID="A356" />
+          <pciinfo vendorID="8086" deviceID="A357" />
+        </pnpdevice>
+        <pnpdevice componentID="100638">
+          <driverversion>16.8.0.1000</driverversion>
+          <generic>2822</generic>
+        </pnpdevice>
+        <pnpdevice componentID="100638">
+          <driverversion>16.8.0.1000</driverversion>
+          <pciinfo vendorID="8086" deviceID="2822" />
+          <pciinfo vendorID="8086" deviceID="282A" />
+          <pciinfo vendorID="8086" deviceID="9D07" />
+          <pciinfo vendorID="8086" deviceID="A107" />
+          <pciinfo vendorID="8086" deviceID="A106" />
+          <pciinfo vendorID="8086" deviceID="A28E" />
+          <pciinfo vendorID="8086" deviceID="A286" />
+          <pciinfo vendorID="8086" deviceID="9DD7" />
+          <pciinfo vendorID="8086" deviceID="A356" />
+          <pciinfo vendorID="8086" deviceID="A357" />
+        </pnpdevice>
+      </pnpids>
+    </extractdriversidentifier>
+    <fullpackageidentifier>
+      <msis>
+        <msi componentID="100638">
+          <identifyingnumber>{82CF0211-F05A-42C7-AA97-8FABB6D66FA4}</identifyingnumber>
+          <upgradecode>{DBEC3A35-04A8-4A70-BD7B-F42654758956}</upgradecode>
+          <version>16.8.0.1000</version>
+        </msi>
+      </msis>
+    </fullpackageidentifier>
+  </inventorymetadata>
+</MUPDefinition>

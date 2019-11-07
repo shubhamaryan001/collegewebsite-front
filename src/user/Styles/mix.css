@@ -1,0 +1,27 @@
+.user-title{
+
+
+    text-transform: uppercase;
+    font-weight: 600;
+    font: bold;
+    font-size: 2.5rem;
+}
+
+.profile-card{
+
+
+
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.profile-header{
+    margin-top: 5.5rem;
+    background: linear-gradient(rgba(224, 30, 30, 0.7), rgba(0,0,0,.7)), url("https://i.pinimg.com/originals/a2/a5/fa/a2a5fa40d773c1d9af8868fe9ff530fe.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom:110px;
+    text-align: center;
+}

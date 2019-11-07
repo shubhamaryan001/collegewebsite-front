@@ -1,0 +1,168 @@
+.product-container {
+  margin-top: -25vh;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-color: #f7f7f7;
+  padding-top: 20rem;
+}
+
+.foronlythis {
+  height: 100vh;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+.product-card-1 {
+  width: 35rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: 0;
+  text-align: center;
+  transition: all 0.25s ease-in-out;
+}
+
+.single-product-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 2rem 2rem 2rem 2rem;
+  -webkit-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.75);
+}
+
+.single-ttile {
+  font-weight: 600;
+}
+
+.editcard {
+  width: 50rem !important;
+}
+
+.card-img-animation {
+  height: 250px;
+
+  width: auto;
+  transition: all 0.2s ease;
+}
+
+.card-img-animation:hover {
+  transform: scale(1.1);
+}
+
+.product-card-1:hover {
+  top: -15px;
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* body {
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 100vh;
+} */
+/* 
+.back {
+  background-image: linear-gradient(to bottom right, red, yellow);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+} */
+
+.quadrado {
+  width: auto;
+  height: 100vh;
+  background: #000;
+  margin: 0 auto;
+  /* position: fixed; */
+
+  animation: crescendo 2s ease-in-out forwards;
+  animation-delay: 10s;
+}
+
+@keyframes crescendo {
+  0% {
+    transform: scaleX(10);
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+    display: none;
+  }
+}
+
+/* 
+#hideme {
+  animation: cssAnimation 10s ease-in 5s forwards;
+}
+
+@keyframes cssAnimation {
+  to {
+    visibility: hidden;
+  }
+} */
+
+.loading {
+  text-transform: uppercase;
+  font-family: "Cabin Condensed", sans-serif;
+  font-weight: bold;
+  font-size: 100pt;
+  text-align: center;
+  height: 120px;
+  line-height: 110px;
+  vertical-align: bottom;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100px;
+  bottom: 0;
+  display: block;
+  z-index: 5;
+}
+
+@keyframes wave-animation {
+  0% {
+    background-position: 0 bottom;
+  }
+  100% {
+    background-position: 200px bottom;
+  }
+}
+@keyframes loading-animation {
+  0% {
+    background-size: 200px 0px;
+  }
+  100% {
+    background-size: 200px 200px;
+  }
+}
+
+@keyframes hide-animation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    display: none;
+  }
+}
+
+.wave {
+  background-image: url("http://i66.tinypic.com/optxd3.png");
+  -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px rgba(255, 255, 255, 0.06);
+  animation: wave-animation 1s infinite linear,
+    loading-animation 8s infinite linear alternate;
+  background-size: 200px 100px;
+  background-repeat: repeat-x;
+  opacity: 1;
+  z-index: 5;
+}
+
+.hide {
+  animation: hide-animation 2s ease-in-out forwards;
+  animation-delay: 8s;
+}
